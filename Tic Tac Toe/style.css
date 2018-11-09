@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.jumbotron{
+    background-image: url('https://www.codester.com/static//uploads/items/1612/preview-xl.jpg');
+    background-size: 93%;
+    display: flex;
+   background-position: center;
+   
+}
+body{
+    background-image: url('https://www.codester.com/static//uploads/items/1612/preview-xl.jpg');
+    background-size: 25%;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+#board{
+    padding:0px;
+    margin:0 auto;
+    margin-top:25px;
+}
+
+#board tr td{
+    width:150px;
+    height:150px;
+    border:5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:65px;
+    text-align:center;
+    background-color: bisque;
+}
+
+.squares:hover{
+    background:blue;
+    cursor: pointer;
+}
+
+.squares:active{
+    background: yellow;
+}

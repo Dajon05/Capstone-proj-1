@@ -1,0 +1,73 @@
+.header{
+  position: relative;
+  
+  margin:0px;
+    /* text-align: center; */
+    background-image: url('http://worldartsme.com/images/clip-art-for-middle-school-math-clipart-1.jpg');
+    height: 340px;
+    width:100%;
+    background-position-y: -320px;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+body{
+  background-color:black;
+  background-image: url('https://www.colourbox.com/preview/2941015-hand-drawn-math-and-physic-symbols-isolated-on-the-white-background.jpg')
+  
+}
+.calculator1{
+  background-color: black;
+    /* display: flex;
+  justify-content: space-around; */
+    width: 320px;
+    height:450px;
+    border: 5px solid red;
+    border-radius: 12px;
+    margin-left: 40% ;
+    padding: 20px 20px 100px 20px;
+    left: 25%;
+    display: flex;
+    justify-content: space-around;
+  }
+.col-sm-3{
+  padding:0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+      .operator{
+        background-color: lightcoral !important;
+      }
+      #clear{
+        background-color: orangered !important;
+      }
+  input[type=button] {
+    background: lightGray;
+    width: 65px;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+    
+  }
+  input[type=button]:active {
+    background-color: #2467a5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  input[type=button]:hover {
+    background-color: #0c4c4e;
+    color: white;
+  }
+  
+  input[type = text] {
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 4px 0px 12px black inset;
+  }

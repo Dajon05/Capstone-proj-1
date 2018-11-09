@@ -1,0 +1,104 @@
+body{
+    background-color: olive;
+    
+}
+
+.jumbotron{
+    background-color: olive;
+    font-family: fantasy;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+
+}
+
+#calculator{
+    border: 6px solid black;
+    padding: 25px;
+    /* background-color: olive; */
+    background-image: url('https://thumbs.dreamstime.com/z/seamless-cartoon-money-pattern-25048702.jpg');
+    font-size: 30px;
+}
+.form-control{
+    height:50px;
+    
+}
+.col-10{
+    padding:50px;
+}
+
+#tip{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 6px solid red;
+    color:rgb(118, 41, 180);
+    background-color: bisque;
+    margin: 10px auto;
+    margin-top:8%;
+}
+#total{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 6px solid red;
+    color:rgb(118, 41, 180);
+    background-color: bisque;
+    margin: 10px auto;
+    margin-top: 10%;
+}
+#billTotal{
+    /* padding: 25px; */
+    border: 6px solid red;
+    color:rgb(118, 41, 180);
+    background-color: bisque;
+    margin-bottom:15px;
+    text-align: center;
+}
+#tipPe{
+    padding: 10px;
+    border: 6px solid red;
+    color:rgb(118, 41, 180);
+    background-color: bisque;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: space-around;
+}
+#numPeop{
+    padding: 10px;
+    border: 6px solid red;
+    color:rgb(118, 41, 180);
+    background-color: bisque;
+    
+}
+#btLabel{
+    margin-top:15px;
+}
+
+#calculate{
+    padding:50px;
+    margin-left: 25%;
+    /* box-shadow: 5px seagreen; */
+}
+
+#enter{
+    background-color: red;
+
+}
+
+#display{
+    background-color: seagreen;
+    color:yellow;
+}
+#display2{
+    background-color: seagreen;
+    color:yellow;
+}
+
+#outputDisplay{
+    
+   
+}
+
+
